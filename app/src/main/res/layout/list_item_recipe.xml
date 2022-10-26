@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    // Get title element
+    val titleTextView = rowView.findViewById(R.id.recipe_list_title) as TextView
+
+    // Get subtitle element
+    val subtitleTextView = rowView.findViewById(R.id.recipe_list_subtitle) as TextView
+
+    // Get detail element
+    val detailTextView = rowView.findViewById(R.id.recipe_list_detail) as TextView
+
+    // Get thumbnail element
+    val thumbnailImageView = rowView.findViewById(R.id.recipe_list_thumbnail) as ImageView
+
+</androidx.constraintlayout.widget.ConstraintLayout>
